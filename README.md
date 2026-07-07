@@ -5,7 +5,7 @@ A simple browser-based to-do list built with plain HTML, CSS, and JavaScript. Ad
 ## Project in Action
 
 [🎥 Watch the demo video!]
-(https://github.com/user-attachments/assets/48ae82d1-619c-4ba6-adbb-7036f43cd930)
+(https://github.com/user-attachments/assets/53946aa5-9c65-44b0-9c59-7e2c10283113)
 
 ## Features
 
