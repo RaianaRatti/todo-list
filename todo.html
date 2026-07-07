@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-
 <html>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
 <body>
+    <p class="title">To-Do List</p>
 
-    <p class = "title">To-Do List</p>
-
-    <div class = "input-grid">
-        <input class="chore-input-textbox" 
-                placeholder="Task" 
-                onfocus = "clearPlaceHolder(this);" 
-                onblur = "restorePlaceHolder(this,'Task');"
-            >
-        <input class="date-input-box" 
-                type="date"
-            >
-        <button class="add-button" >Add</button>
+    <div class="input-grid">
+        <input class="chore-input-textbox"
+                placeholder="Task"
+                onfocus="clearPlaceHolder(this);"
+                onblur="restorePlaceHolder(this,'Task');">
+        <input class="date-input-box" type="date">
+        <button class="add-button">Add</button>
     </div>
-    
+
     <div class="display-list-elements"></div>
 
+    <script src="todo.js"></script>
 </body>
-
-<head>
-    <title>To-Do List</title>
-    <script src="../todo.js"></script>
-<link rel= "stylesheet" href="../todo.css">
-</head>
-
 </html>
